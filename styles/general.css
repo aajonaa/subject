@@ -1,0 +1,15 @@
+body {
+  position: relative;
+  font-family: 'Press Start 2P';
+  padding-top: 80px;
+  padding-left: 150px;
+  width: 2000px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: gray;
+}

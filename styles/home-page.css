@@ -1,0 +1,25 @@
+main {
+  font-family:'Times New Roman', Times, serif;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 8px;
+  height: 3000px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  border: 1px solid gray;
+  background-color: lightgreen;
+}
+
+main section .item {
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 5px;
+}
+
+main section .description {
+  margin-bottom: 20px;
+}
